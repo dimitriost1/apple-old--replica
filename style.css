@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    padding-bottom: 30rem;
+    background-image: url(assets/your_verse_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background-attachment: fixed; */
+    height: 650px;
+}
+
+header nav li{
+    list-style: none;
+    padding: .5rem;
+    width: 7rem;
+    border-right: .01rem solid rgba(0, 0, 0, 0.178) ;
+    text-align: center;
+}
+
+.search-item{
+    border: none;
+    text-align: start;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #EFFEFF;
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+nav{
+    background: radial-gradient(circle, rgba(96,96,96,1) 0%, rgba(132,134,131,1) 35%);
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    margin-bottom: 3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    padding-top: 2.5rem;
+}
+
+#search-input{
+    width: 4rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-outer{
+    padding-left: .4rem;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 30px;
+}
+
+header section p{
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    margin: 2rem;
+    color: #DBDBDB;
+}
+
+header .first{
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+header .second{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: auto;
+    width: 70%;
+}
+
+header .third{
+    font-weight: 300;
+}
+
+
+ .promo img {
+    width: 25%;
+    object-fit: contain;
+}
+
+footer{
+width: 90%;
+margin: 2rem auto 2rem auto;
+color: #A7A7A7;
+}
+
+.footer-nav{
+    list-style: none;
+}
+
+.footer-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #8EB3C6;
+    font-size: smaller;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+footer p{
+    margin: 1.5rem;
+}
